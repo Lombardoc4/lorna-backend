@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
         host     : "app-b5c4663b-ed0b-40fc-bda9-a9a6652a9c2d-do-user-9074514-0.b.db.ondigitalocean.com",
         port     : "25060",
         username : "db",
-        password : env('DATABASE_PASSWORD', 'chhfizcOwAJkR77O'),
+        password : "chhfizcOwAJkR77O",
         database : "db",
         sslmode  : "require"
       },
