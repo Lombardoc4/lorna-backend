@@ -5,10 +5,10 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: 'postgres',
-        host     : "app-c7a12073-8a9f-4857-a637-0a1a510aa942-do-user-9074514-0.b.db.ondigitalocean.com",
+        host     : "app-b5c4663b-ed0b-40fc-bda9-a9a6652a9c2d-do-user-9074514-0.b.db.ondigitalocean.com",
         port     : "25060",
         username : "db",
-        password : "0JI2Fq8fXdo48xSc",
+        password : env(DATABASE_PASSWORD),
         database : "db",
         sslmode  : "require"
       },
