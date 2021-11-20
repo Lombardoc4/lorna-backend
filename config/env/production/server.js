@@ -6,6 +6,6 @@ module.exports = ({ env }) => ({
       auth: {
         secret: env('ADMIN_JWT_SECRET', '693e0d5776cd8cb2291f1791066a0569'),
       },
-      url: env('STRAPI_URL', 'api')
+      // url: env('STRAPI_URL', 'api')
     },
   });
