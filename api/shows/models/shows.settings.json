@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "shows",
+  "info": {
+    "name": "Shows"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
