@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "analytics",
+  "collectionName": "participations",
   "info": {
-    "name": "Analytic",
-    "description": ""
+    "name": "Participation"
   },
   "options": {
     "increments": true,
@@ -12,13 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "event": {
+    "path": {
       "type": "string"
     },
     "action": {
       "type": "string"
     },
-    "path": {
+    "event": {
       "type": "string"
     }
   }

@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/analytics",
-      "handler": "analytic.find",
+      "path": "/participations",
+      "handler": "participation.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/analytics/count",
-      "handler": "analytic.count",
+      "path": "/participations/count",
+      "handler": "participation.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/analytics/:id",
-      "handler": "analytic.findOne",
+      "path": "/participations/:id",
+      "handler": "participation.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/analytics",
-      "handler": "analytic.create",
+      "path": "/participations",
+      "handler": "participation.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/analytics/:id",
-      "handler": "analytic.update",
+      "path": "/participations/:id",
+      "handler": "participation.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/analytics/:id",
-      "handler": "analytic.delete",
+      "path": "/participations/:id",
+      "handler": "participation.delete",
       "config": {
         "policies": []
       }
