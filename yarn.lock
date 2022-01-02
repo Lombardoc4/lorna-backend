@@ -1973,21 +1973,6 @@
     "postcss" "^7.0.32"
     "postcss-value-parser" "^4.1.0"
 
-"aws-sdk@2.388.0":
-  "integrity" "sha512-2yycFVn90H61R3vbE+4Yqn8AEOS88oOE1wUsm6aUhsk+i/Y707a85C166gKuE3+if4y8IS5qqQJiX+HUtF0KNw=="
-  "resolved" "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.388.0.tgz"
-  "version" "2.388.0"
-  dependencies:
-    "buffer" "4.9.1"
-    "events" "1.1.1"
-    "ieee754" "1.1.8"
-    "jmespath" "0.15.0"
-    "querystring" "0.2.0"
-    "sax" "1.2.1"
-    "url" "0.10.3"
-    "uuid" "3.3.2"
-    "xml2js" "0.4.19"
-
 "aws-sdk@2.892.0":
   "integrity" "sha512-OOXJ15AnJJMHZYXJQVy22Wjnp5GrZCfvCxmoZuXdsLNs8M+BL4mfBqma82+UkM2NhJgLYuAhDfvFUBob6VGIWw=="
   "resolved" "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.892.0.tgz"
@@ -2446,15 +2431,6 @@
   dependencies:
     "base64-js" "^1.3.1"
     "ieee754" "^1.1.13"
-
-"buffer@4.9.1":
-  "integrity" "sha1-bRu2AbB6TvztlwlBMgkwJ8lbwpg="
-  "resolved" "https://registry.npmjs.org/buffer/-/buffer-4.9.1.tgz"
-  "version" "4.9.1"
-  dependencies:
-    "base64-js" "^1.0.2"
-    "ieee754" "^1.1.4"
-    "isarray" "^1.0.0"
 
 "buffer@4.9.2":
   "integrity" "sha512-xq+q3SRMOxGivLhBNaUdC64hDTQwejJ+H0T/NB1XMtTVEwNTrfFF3gAxiyW0Bu/xWEGhjVKgUcMhCrUy2+uCWg=="
@@ -5152,11 +5128,6 @@
   "integrity" "sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg=="
   "resolved" "https://registry.npmjs.org/ieee754/-/ieee754-1.1.13.tgz"
   "version" "1.1.13"
-
-"ieee754@1.1.8":
-  "integrity" "sha1-vjPUCsEO8ZJnAfbwii2G+/0a0+Q="
-  "resolved" "https://registry.npmjs.org/ieee754/-/ieee754-1.1.8.tgz"
-  "version" "1.1.8"
 
 "iferr@^0.1.5":
   "integrity" "sha1-xg7taebY/bazEEofy8ocGS3FtQE="
@@ -10109,14 +10080,6 @@
     "aws-sdk" "2.892.0"
     "lodash" "4.17.21"
 
-"strapi-provider-upload-do@^3.6.6":
-  "integrity" "sha512-m24sgMnau6vKpstl5hMHXTbnkkOka0NVnzfEfl9b8b4vVpcil7VXQ/1hT6RZYRwKEBPO1tJzx8ZJ2RS0deuM9A=="
-  "resolved" "https://registry.npmjs.org/strapi-provider-upload-do/-/strapi-provider-upload-do-3.6.6.tgz"
-  "version" "3.6.6"
-  dependencies:
-    "aws-sdk" "2.388.0"
-    "urijs" "^1.19.6"
-
 "strapi-provider-upload-local@3.6.8":
   "integrity" "sha512-GkedrjO+T4DN649Ak0SMSS5Vdta0AoZRt9+IWLO9TGLZ7hjtIjnB60kGf0fQKspIhbS7DUqtwuzQAXTd8fXJOg=="
   "resolved" "https://registry.npmjs.org/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.8.tgz"
@@ -10869,7 +10832,7 @@
   dependencies:
     "punycode" "^2.1.0"
 
-"urijs@^1.19.0", "urijs@^1.19.6":
+"urijs@^1.19.0":
   "integrity" "sha512-Id+IKjdU0Hx+7Zx717jwLPsPeUqz7rAtuVBRLLs+qn+J2nf9NGITWVCxcijgYxBqe83C7sqsQPs6H1pyz3x9gA=="
   "resolved" "https://registry.npmjs.org/urijs/-/urijs-1.19.7.tgz"
   "version" "1.19.7"
