@@ -1,11 +1,9 @@
-module.exports = ({ env }) => ({
-  provider: 'aws-s3',
-  providerOptions: {
-    accessKeyId: env('AWS_ACCESS_KEY_ID'),
-    secretAccessKey: env('AWS_ACCESS_SECRET'),
-    region: env('AWS_REGION'),
-    params: {
-      Bucket: env('AWS_BUCKET_NAME'),
-    },
-  },
-});
+module.exports = {
+    provider: "do",
+    providerOptions: {
+      key: process.env.DO_SPACE_ACCESS_KEY,
+      secret: process.env.DO_SPACE_SECRET_KEY,
+      endpoint: process.env.DO_SPACE_ENDPOINT,
+      space: process.env.DO_SPACE_BUCKET,
+    }
+  }
