@@ -1,4 +1,4 @@
-{
+module.exports = {
     "provider": "aws-s3",
     "providerOptions": {
         "accessKeyId": "AKIA46PGPQ5KI4YKGI47",
