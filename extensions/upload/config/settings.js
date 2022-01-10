@@ -1,11 +1,11 @@
 module.exports = {
     "provider": "aws-s3",
     "providerOptions": {
-        "accessKeyId": "AKIA46PGPQ5KI4YKGI47",
+        "accessKeyId": process.env.AWS_ACCESS_KEY_ID,
         "secretAccessKey": process.env.AWS_ACCESS_SECRET,
-        "region": "us-east-1",
+        "region": process.env.AWS_REGION,
         "params": {
-            "Bucket": "lornashore"
+            "Bucket": process.env.AWS_BUCKET_NAME,
         }
     }
 }
