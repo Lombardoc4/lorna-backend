@@ -1,13 +1,4 @@
 module.exports = ({ env }) => ({
-  // upload: {
-  //   provider: "aws-s3",
-  //   providerOptions: {
-  //     key: env('DO_SPACE_ACCESS_KEY'),
-  //     secret: env('DO_SPACE_SECRET_KEY'),
-  //     endpoint: env('DO_SPACE_ENDPOINT'),
-  //     space: env('DO_SPACE_BUCKET')
-  //   }
-  // }
   upload: {
     provider: "aws-s3",
     providerOptions: {
